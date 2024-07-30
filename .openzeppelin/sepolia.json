@@ -1,0 +1,275 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x412bbFCb6587DF1D578d49AD074C38E93EdA4D75",
+      "txHash": "0x6ee4c8b1d41a949501bec72f67505c3b00e7e08a353ec7f9e842c34ffc20570a",
+      "kind": "uups"
+    },
+    {
+      "address": "0xde14B9912d73C88B17a831De919f17483bF586d7",
+      "txHash": "0xfe056c5d7c918c9e60fae7ae4534ef081f1d08b441053a68758195889dd4427e",
+      "kind": "uups"
+    },
+    {
+      "address": "0x0e14b5d51032c3703a803225fA33e068f6df6311",
+      "txHash": "0xfce05136000255cc555276465185c1692061435885e18c997db97bba852a2e1c",
+      "kind": "uups"
+    },
+    {
+      "address": "0x749510f39faa1535Ca28B00D14F0f8EF9B31f364",
+      "txHash": "0x3fba09a9035ad528f6df4641406d6a607bebe6da818a3b22ad08ad134f749190",
+      "kind": "uups"
+    },
+    {
+      "address": "0x62A730751A45b3E0e98Bc1843F60EaB8F69B48Df",
+      "txHash": "0xde13741220b74061e58d65a0826f179a96c41256b3be71e62da283b0437c1f78",
+      "kind": "uups"
+    },
+    {
+      "address": "0x08D8D1526c522817811bDb0Bd85ea760Bdae96B3",
+      "txHash": "0xd530312654758b07428b69dddfea6a67673fa7e67a404a12713b873320e03ded",
+      "kind": "uups"
+    },
+    {
+      "address": "0x12f174374d50dF01DcE4231C4756692Bd5e2C833",
+      "txHash": "0x347a7bc69509eae2cce810a1e7205ad65cd082d02c77cd68c491ec0be5d1dc6a",
+      "kind": "uups"
+    },
+    {
+      "address": "0x513A0C9C3ca862Df96f2eE570Db1Cbe204c9d49B",
+      "txHash": "0x7b4ffc149d5b11997cf7c12518ec54e8f310bed4b2c40a1491fd312d1253f5dd",
+      "kind": "uups"
+    },
+    {
+      "address": "0xa99eA29B2E6B2816a5e4D84ecD59BC31f02856aA",
+      "txHash": "0xf10ae5b5caed330926600cf684bbdaebb5a246b45c59596740e5ba22a05b0c09",
+      "kind": "uups"
+    },
+    {
+      "address": "0x66ac50Cb337C03edF686fb5f4A248Dc9e08fE3D6",
+      "txHash": "0xbb71a6334eebb7686e47d2afdeec192f58151aa9070e385466b1c619763fc6a4",
+      "kind": "uups"
+    },
+    {
+      "address": "0xA3BA7C7Bd31af5c38eb43BaC7999B81aB25B9681",
+      "txHash": "0xa7c238b1b1aca3acceb42e5ac8040db372afd1f90051fd7f32bc7ebe0e353675",
+      "kind": "uups"
+    },
+    {
+      "address": "0x7b76272B6baFfb709Cb80D4a3E5E65E2f818FB55",
+      "txHash": "0xcb194208e8d50844bb109dffcd2cd07c456a7cd7648584ec4a24dc8a5837b598",
+      "kind": "uups"
+    },
+    {
+      "address": "0xb706F462F9AEC4Fa8E7e588A9A28A053592A1dcF",
+      "txHash": "0xf3c8565c9e1b115255f8475cfa41ca44f90c8543eae3ac460db95019042a3a2a",
+      "kind": "uups"
+    },
+    {
+      "address": "0xF50dEb40B25F0B517a9ddc7e5BE4c4b1fC1181CD",
+      "txHash": "0x475956aabea87f0f1091f4a41e8473988ab74847363e4e929c821fc1998c34a0",
+      "kind": "uups"
+    },
+    {
+      "address": "0xA16446AE279CCE8080eD744C2E6586527C0cD5D1",
+      "txHash": "0xa9a310f18e68cdeccd37b2fff4c78ea02e3658e5155ab0cf6dbe430c48ba0ae2",
+      "kind": "uups"
+    },
+    {
+      "address": "0x895B740A8c1772bC261b49F92701B397D1991216",
+      "txHash": "0x3e3fb9a2a47290733a2c7c8900aefa0cce2a703e316e9f6029344a5f7a92dd8e",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "c1cf8a3a3c6c647690e2db8ac44274831fe4ff122a374541993f6e0c8061ad44": {
+      "address": "0x1675fD7D43939770ED3eb714AeC580783e076010",
+      "txHash": "0xebc9de6a3d7dcb7681ed214c9dfe42c3c99a39083059295db7e5e3c1b8dcd6e6",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "nftToken",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IERC721)2001",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:20"
+          },
+          {
+            "label": "rewardToken",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IERC20)1858",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:21"
+          },
+          {
+            "label": "rewardRatePerBlock",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:24"
+          },
+          {
+            "label": "unstakePeriod",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:25"
+          },
+          {
+            "label": "claimDelay",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:26"
+          },
+          {
+            "label": "isStakingPaused",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_bool",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:27"
+          },
+          {
+            "label": "totalRewardCap",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint256",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:28"
+          },
+          {
+            "label": "unstakePeriodDays",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:31"
+          },
+          {
+            "label": "claimDelayDays",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:32"
+          },
+          {
+            "label": "stakes",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_struct(Stake)2426_storage))",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:38"
+          },
+          {
+            "label": "userNFTs",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "StakeNFT",
+            "src": "contracts\\NftStaking.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20)1858": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IERC721)2001": {
+            "label": "contract IERC721",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_struct(Stake)2426_storage))": {
+            "label": "mapping(address => mapping(uint256 => struct StakeNFT.Stake))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(Stake)2426_storage)": {
+            "label": "mapping(uint256 => struct StakeNFT.Stake)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Stake)2426_storage": {
+            "label": "struct StakeNFT.Stake",
+            "members": [
+              {
+                "label": "stakedAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "lastClaim",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.ReentrancyGuard": [
+            {
+              "contract": "ReentrancyGuardUpgradeable",
+              "label": "_status",
+              "type": "t_uint256",
+              "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:40"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:24"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
